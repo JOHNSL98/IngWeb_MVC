@@ -4,9 +4,9 @@
     class Model {
         public function getBookList() {
             return array(
-                "Libro 1" => new Book("libro 1", "autor libro 1", "descripcion libro uno."),
-                "Libro2" => new Book("libro 2", "autor libro 2", "descripcion libro dos"),
-                "Libro 2" => new Book("libro 3", "autor libro 3", "descripcion libro tres")
+                "Libro 1" => new Book("Libro 1", "autor libro 1", "descripcion libro uno."),
+                "Libro 2" => new Book("Libro 2", "autor libro 2", "descripcion libro dos"),
+                "Libro 3" => new Book("Libro 3", "autor libro 3", "descripcion libro tres")
             );
         }
         
